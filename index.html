@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjelasan CSS Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style> body {   
+        background-color: rgb(0, 20, 132);}
+    </style>
+    <div class="container">
+        <h1>Penjelasan Tentang CSS Position</h1>
+        <section>
+            <h2>1. position: static</h2>
+            <p> jenis ini adalah posisi bawaan untuk semua elemen web. Jika kamu tidak menentukan jenis posisi apa pun, elemen tersebut akan memiliki static position secara default.</p>
+            <div class="static-box">Static</div>
+        </section>
+        <section>
+            <h2>2. position: relative</h2>            
+            <p>saat kamu menetapkan elemen dengan relative position, kamu dapat menggerakkannya dari posisi asli tanpa mengganggu elemen lain di sekitarnya.</p>
+            <div class="relative-box">Relative</div>
+        </section>
+        <section>
+            <h2>3. position: absolute</h2>
+            <p>menggunakan absolute position berarti kamu mengambil elemen keluar dari normal flow dan menempatkannya tepat di lokasi yang kamu inginkan. <code>html</code>.</p>
+            <div class="absolute-box">Absolute</div>
+        </section>
+        <section>
+            <h2>4. position: fixed</h2>
+            <p>elemen dengan fixed position akan tetap berada di posisi yang sama, bahkan ketika audiens men-scroll halaman.</p>
+            <div class="fixed-box">Fixed</div>
+        </section>
+        <section>
+            <h2>5. position: sticky</h2>
+            <p> jenis ini adalah kombinasi dari posisi relative dan fixed. Elemen akan bergerak seperti biasa sampai mencapai titik tertentu, lalu akan "menempel" seperti fixed position.</p>
+            <div class="sticky-box">Sticky</div>
+        </section>
+    </div>
+</body>
+</html>
